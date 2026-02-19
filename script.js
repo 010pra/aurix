@@ -1,5 +1,5 @@
 /* ========================================
-   AURIX™ — Premium Landing Page Script
+   PRISONA™ — Premium Landing Page Script
    White theme, scroll video, animations
    ======================================== */
 
@@ -189,8 +189,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     body: JSON.stringify({
                         access_key: WEB3FORMS_ACCESS_KEY,
-                        subject: '🎉 New AURIX™ Waitlist Signup!',
-                        from_name: 'AURIX Waitlist',
+                        subject: '🎉 New PRISONA™ Waitlist Signup!',
+                        from_name: 'PRISONA Waitlist',
                         email: email,
                         message: `New waitlist signup from: ${email}`,
                     }),
@@ -363,6 +363,6 @@ document.addEventListener('DOMContentLoaded', () => {
         el.addEventListener('mouseleave', () => cursor.classList.remove('hovering'));
     });
 
-    console.log('%c AURIX™ ', 'background: #b8935a; color: white; font-weight: bold; font-size: 14px; padding: 4px 12px; border-radius: 4px;');
+    console.log('%c PRISONA™ ', 'background: #b8935a; color: white; font-weight: bold; font-size: 14px; padding: 4px 12px; border-radius: 4px;');
     console.log('%c Premium Ultrasonic Cleaner for Jewelry & Eyewear — Launching Soon ', 'color: #888; font-size: 11px;');
 });
